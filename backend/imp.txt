@@ -1,0 +1,21 @@
+why we use mongoose :
+Defining schemas for your data
+Creating models based on those schemas
+Performing CRUD (Create, Read, Update, Delete) operations on MongoDB
+Validating data before it's saved to MongoDB
+
+Import Mongoose: You import Mongoose when you need to interact with MongoDB to store, retrieve, or manipulate data.
+
+
+why we use express :
+Setting up an HTTP server
+Defining routes and handling requests
+Parsing request bodies (e.g., for POST requests)
+Handling middleware (e.g., for authentication, logging, etc.)
+
+Import Express: You import Express when you're working with routes, handling HTTP requests, and building the server-side part of your web application or API.
+
+
+
+
+Import Both: If your application needs to handle HTTP requests (with Express) and interact with a MongoDB database (with Mongoose), you would import both libraries. Typically, you'd use Express to handle incoming API requests and Mongoose to interact with the database for data manipulation.
